@@ -1,4 +1,4 @@
-# pi-eldritch-linkarzu
+# omp-eldritch-linkarzu
 
 An [omp](https://github.com/can1357/oh-my-pi) colour theme built from the Linkarzu
 kitty theme — his own take on Eldritch, with the signature pink `#f94dff` cursor
@@ -9,8 +9,8 @@ All 67 required colour tokens are set from that palette.
 ## Install
 
 ```sh
-git clone https://github.com/mastnacek/pi-eldritch-linkarzu.git
-cp pi-eldritch-linkarzu/eldritch-linkarzu.json ~/.omp/agent/themes/
+git clone https://github.com/mastnacek/omp-eldritch-linkarzu.git
+cp omp-eldritch-linkarzu/eldritch-linkarzu.json ~/.omp/agent/themes/
 ```
 
 Then select it. Either through the TUI:
