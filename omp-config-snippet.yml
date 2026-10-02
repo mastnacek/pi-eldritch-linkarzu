@@ -1,0 +1,23 @@
+# Settings that make the theme fully apply.
+#
+# `text` and `userMessageText` in the theme must be non-empty hex values —
+# an empty string does NOT fall back to your terminal foreground in those two
+# slots. It falls back to a hardcoded #e5e5e7, which is not in the Linkarzu
+# palette. The theme file already sets both to `star` (#ebfafa); this is noted
+# here so you know not to "clean them up" to "".
+
+theme:
+  dark: eldritch-linkarzu
+  light: eldritch-linkarzu
+
+statusLine:
+  # true (the default) derives the session-name colour from a djb2 hash of the
+  # session name, clamped to hue 0-120 (red -> yellow -> green). The signature
+  # pink #f94dff can never appear in that band. false makes the segment use the
+  # `statusLineModel` token instead.
+  sessionAccent: false
+
+display:
+  # "kitt" is a Knight Rider scanner bouncing at 30 cells/s — fast and busy.
+  # "classic" is a soft cosine sweep. "disabled" is static muted text.
+  shimmer: classic
